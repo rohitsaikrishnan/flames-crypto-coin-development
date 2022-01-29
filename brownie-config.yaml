@@ -1,0 +1,15 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.4.2
+
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.4.2'
+
+dotenv: .env
+wallets:
+  from_key: 0x024856bf34ffd2b857ba222e10c7649394c3caab0d928c6d69f245c8e5505df7
+
+networks:
+  kovan:
+    verify: True
